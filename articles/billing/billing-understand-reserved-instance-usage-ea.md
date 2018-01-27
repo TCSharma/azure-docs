@@ -55,6 +55,14 @@ Reserved Instance usage also shows up in usage summary section of EA portal:
 1. You are not charged for hardware component of the VM as it is covered by Reserved Instance. 
 2. You are charged for Windows software as Azure Hybrid Benefit is not used. 
 
+### Parsing JSON Object
+You can parse JSON object either using excel or PowerBI.
+
+## Excel
+You will need the JSON parser library (you can get one from https://github.com/VBA-tools/VBA-JSON) and write VBA script to parse the information under “AdditionalInfo” field in the CSV usage file.
+Select the column(s) you want to parse, e.g., let’s say to get VM name from JSON object:
+
+![Reserved VM Instance application](media/billing-reserved-vm-instance-application/AdditionalInfo.png)
 ## Need help? Contact support.
 
 If you still need help, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to get your issue resolved quickly.
