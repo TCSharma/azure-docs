@@ -68,6 +68,23 @@ Parse the VM name to new column let’s say “RIVMSku” like:
 
 ![Reserved VM Instance application](media/billing-reserved-vm-instance-application/VMNameParsed.png)
 
+You can find sample code at…. that you can use and modify to meet your needs.
+
+## PowerBI
+You can import data using Excel/CSV file into PowerBI Desktop application and select the column, in this case “Additional Info”, then right click and select Edit Query.
+
+![Reserved VM Instance application](media/billing-reserved-vm-instance-application/PowerBI-ParseJSON-1.png)
+
+Select Transform  Parse  JSON to parse the column.
+
+![Reserved VM Instance application](media/billing-reserved-vm-instance-application/PowerBI-ParseJSON-2.png)
+
+Select on “Additional Info” field to expand the new columns:
+
+![Reserved VM Instance application](media/billing-reserved-vm-instance-application/PowerBI-ParseJSON-3.png)
+
+You can either copy the parsed data or save it and view usage.
+
 ## Need help? Contact support.
 
 If you still need help, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to get your issue resolved quickly.
